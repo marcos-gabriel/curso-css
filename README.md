@@ -3,6 +3,13 @@
 
  Com o CSS vamos poder customizar nossas páginas HTML e deixar os nossos sites muito mais bonitos!
 
+ ## Sumário
+ 1. [Existem 3 formas de trabalhar com o CSS](https://github.com/marcos-gabriel/curso-css#existem-3-formas-de-trabalhar-com-o-css)
+    1. [Inline Style](#inline-style)
+    1. [Internal Style Sheet]()
+    1. [External Style Sheet]()
+ 1. [Seletores]()
+
 ## Existem 3 formas de trabalhar com o CSS
 * External Style Sheet
 * Internal Style Sheet 
@@ -63,3 +70,5 @@ p{
     background: blue;
 }
 ```
+
+## Seletores
