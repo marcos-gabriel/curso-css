@@ -11,6 +11,10 @@
     1. [Internal Style Sheet](#internal-style-sheet)
     1. [External Style Sheet](#external-style-sheet)
  1. [Seletores](#seletores)
+    1. [Seletores simples](#seletores-simples)
+        1. [Tags](#tags)
+        1. [ID](#id)
+        1. [Class](#class)
 
 ## Existem 3 formas de trabalhar com o CSS
 * External Style Sheet
@@ -104,6 +108,7 @@ Nesse exemplo, todas as tags `<div>` irão receber a *width* (largura) de 600px.
 Os id's são identificadores únicos, que não se repetem. Você pode atribuir id's para elementos HTML usando a propriedade `id` e depois disso você pode formatar o elemento que possui esse id único usando o seletor de id.
 
 Exemplo:
+
 No HTML:
 ``` html
 <body>
@@ -127,6 +132,7 @@ Perceba que para usar o seletor de ID precisamos usar o símbolo de `#` e depois
 Já a *Class* (classe), diferentemente do ID, pode ser usada por vários elementos HTML. Você pode atribuir class para elementos HTML usando a propriedade `class` e depois disso você pode formatar os elementos que possuem essa class usando o seletor de class.
 
 Exemplo:
+
 No HTML:
 ``` html
 <body>
