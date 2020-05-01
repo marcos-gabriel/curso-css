@@ -83,8 +83,7 @@ p{
 ## Seletores
 Seletores são elementos que nos ajudam a aplicar formatações CSS para vários componentes HTML ao mesmo tempo. Eles são responsáveis por "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
 * Seletores simples (tags, id, class)
-* Seletores combinados
-* Seletores de estado (estado específico de determinados elementos)
+* [Seletores combinados](arquivos-necessarios/Esquema-seletores.pdf)
 
 ### Seletores simples
 #### Tags
