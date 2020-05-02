@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	background: #F3F0F0;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+	float: left;
+}
+
+h2{
+	margin: auto;
+	color: #FFD700;
+}
+
+h3{
+	margin: 0px;
+	background: #C5C2C2;
+	color:#616060;
+	padding: 5px;
+}
+
+h5{
+	margin: 0px;
+	margin-bottom: 20px;
+}
+a:link, a:visited{
+	text-decoration: none;
+	font-weight: bold;
+	color:#FFD700;
+}
+
+#logo{
+	position: relative; 
+	left:600px;
+	margin: 0px auto;
+}
+
+#cabecalho{
+	background: #FFD700;
+	text-align: center;
+	padding: 15px;
+	height: 80px;
+}
+
+#menu{
+	width: 450px;
+	margin: 0px auto;
+	position: relative;
+	top:50px;
+}
+
+#container{
+	width: 900px;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+}
+
+#menu_lateral{
+	width: 220px;
+	position: absolute;
+	top:20px;
+	right: 10px;
+}
+
+#rodape{
+	width: 900px;
+	padding: 10px;
+	margin: 10px auto;
+	background:#C5C2C2;
+	text-align: center;
+}
+
+.postagens{
+	width: 640px;
+	margin: 10px 0px;
+	padding: 10px;
+	background: white;
+}
+
+.postagens_lateral{
+	font-size: 0.8em;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: white;
+}
+
+.links_menu:link, .links_menu:visited{
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	color:white;
+}
+
+.links_menu:hover{
+	background: white;
+	color:#FFD700;
+}
