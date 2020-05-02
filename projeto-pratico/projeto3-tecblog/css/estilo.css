@@ -1,108 +1,117 @@
 *{
-	margin: 0;
+	margin:0;
 	padding: 0;
 }
 
 body{
+	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 16px;
-	background: #F3F0F0;
-	margin: 0px;
-	padding: 0px;
+	background: #e6e6e6;
 }
 
-h1{
+/* LAYOUT */
+#area-cabecalho{
+	background-color: #f7b600;
+	padding: 15px;
 	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 660px;
 	float: left;
 }
 
-h2{
-	margin: auto;
-	color: #FFD700;
+#area-lateral{
+	width: 240px;
+	float:right;
 }
 
-h3{
-	margin: 0px;
-	background: #C5C2C2;
-	color:#616060;
-	padding: 5px;
-}
-
-h5{
-	margin: 0px;
+.postagem{
+	padding: 20px;
 	margin-bottom: 20px;
-}
-a:link, a:visited{
-	text-decoration: none;
-	font-weight: bold;
-	color:#FFD700;
+	background: white;
 }
 
-#logo{
-	position: relative; 
-	left:600px;
-	margin: 0px auto;
-}
-
-#cabecalho{
-	background: #FFD700;
-	text-align: center;
-	padding: 15px;
-	height: 80px;
-}
-
-#menu{
-	width: 450px;
-	margin: 0px auto;
-	position: relative;
-	top:50px;
-}
-
-#container{
-	width: 900px;
+.conteudo-lateral{
+	background: white;
 	padding: 10px;
-	margin: auto;
-	position: relative;
-}
+	margin-bottom: 20px; 
 
-#menu_lateral{
-	width: 220px;
-	position: absolute;
-	top:20px;
-	right: 10px;
 }
 
 #rodape{
-	width: 900px;
-	padding: 10px;
-	margin: 10px auto;
-	background:#C5C2C2;
+	clear: both;
 	text-align: center;
+	padding: 15px;
+	background: #CCC;
 }
 
-.postagens{
-	width: 640px;
-	margin: 10px 0px;
-	padding: 10px;
-	background: white;
-}
-
-.postagens_lateral{
+.postagem-lateral{
 	font-size: 0.8em;
-	padding: 10px;
-	margin-bottom: 10px;
-	background: white;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
 }
 
-.links_menu:link, .links_menu:visited{
+/* FORMATAÇÃO DO MENU*/
+a{
 	text-decoration: none;
-	padding: 10px;
-	font-size: 1em;
-	font-weight: bold;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color:#FFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color:#f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+
+/* FORMATAÇÕES GERAIS */
+h1{
+	color:#4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+a:link, a:visited{
+	color:#f7b600;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.branco{
 	color:white;
 }
 
-.links_menu:hover{
-	background: white;
-	color:#FFD700;
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block; 
 }
+
