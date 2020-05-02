@@ -1,0 +1,68 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<title>Elementos flutuantes</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			#principal{
+				border: 5px solid red;
+				background: green;
+			}
+
+			.clearfix{
+				overflow:auto;
+			}
+
+			.conteudo{
+				background: blue;
+				border:1px solid grey;
+				width: 200px;
+				height: 200px;
+				margin: 10px;
+				float:left;
+			}
+
+			.conteudo1{
+				background: red;
+				border:1px solid grey;
+				width: 200px;
+				height: 200px;
+				margin: 10px;
+				float:right;
+			}
+
+			.clear{
+				clear: both;
+			}
+			
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div id="principal" class="clearfix">
+			<div class="conteudo">
+				Conteúdo 1
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 3
+			</div>
+
+			<div class="conteudo1">
+				Conteúdo 4
+			</div>
+
+			<p class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt arcu tortor. Nulla metus lacus, scelerisque vitae neque eget, aliquam lacinia mauris. Vivamus ipsum odio, tincidunt et lacus ac, auctor blandit urna. Fusce facilisis nulla ullamcorper, pulvinar velit eu, tempor quam. In in neque in nibh fringilla luctus. Vivamus ac congue quam. Nulla molestie vitae ex ut varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas id risus placerat, consectetur dui non, vulputate felis. Curabitur eleifend condimentum finibus. Nunc feugiat metus nibh, eget pharetra justo pulvinar et. Curabitur lobortis dictum sodales.</p>
+		</div>
+		
+	</body>
+</html>
