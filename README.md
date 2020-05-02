@@ -6,10 +6,13 @@
  CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da Web de uma só vez.
 
  **Obs:** Nesse repositório você tem acesso a duas partes do curso
- * [Básico](https://github.com/marcos-gabriel/curso-css/tree/master/curso/B%C3%A1sicoo)
+ * [Básico](https://github.com/marcos-gabriel/curso-css/tree/master/curso/B%C3%A1sico)
  * [Intermediário](https://github.com/marcos-gabriel/curso-css/tree/master/curso/Intermedi%C3%A1rio)
+ 
  Nessas duas pastas você pode ir seguindo a ordem dos códigos conforme a numeração deles. A maioria dos arquivos são `.html`, pois estamos trabalhando mais com o *CSS Interno*, mas, na prática, aconselho a trabalhar mais com o *CSS externo*.
  Além disso você pode acessar os [Projetos práticos](https://github.com/marcos-gabriel/curso-css/tree/master/projeto-pratico), baixar os códigos e treinar na sua casa!
+
+ Abaixo você encontra um pequeno resumo sobre alguns tópicos importantes antes de você começar a codar na prática. Você também pode acessar esse site (w3scools)[https://www.w3schools.com/css/default.asp], e lá você encontra uma excelente documetação do CSS.
 
  **Bons estudos!**
 
